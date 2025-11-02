@@ -8,9 +8,17 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
+    
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+
+      - name: prime-cache-3930c68
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: cache-3930c68
+          
 
       - name: 23f2003826@ds.study.iitm.ac.in
         run: echo "Hello, world! This is my GitHub Action test run."

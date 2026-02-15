@@ -2231,3 +2231,4 @@
 {"message": "success", "iss_position": {"longitude": "83.0073", "latitude": "20.8671"}, "timestamp": 1771107477}
 {"message": "success", "iss_position": {"longitude": "-50.5888", "latitude": "-51.1372"}, "timestamp": 1771111135}
 {"iss_position": {"longitude": "159.4507", "latitude": "33.5382"}, "timestamp": 1771120298, "message": "success"}
+{"iss_position": {"longitude": "-36.3643", "latitude": "-12.5583"}, "timestamp": 1771129112, "message": "success"}
